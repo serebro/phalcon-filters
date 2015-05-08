@@ -11,6 +11,13 @@ class Bool
             $value = strtolower($value);
         }
 
-        return $value === true || $value === 'true' || $value === '1' || $value === 1 || $value === 'y' || $value === 'yes' || $value === 'on';
+        return 
+            $value === true || 
+            $value === 'true' || 
+            $value === '1' || 
+            $value === 1 || 
+            $value === 'y' || 
+            $value === 'yes' || 
+            $value === 'on';
     }
 }
