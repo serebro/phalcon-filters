@@ -1,0 +1,25 @@
+{
+	"name": "serebro/phalcon-filters",
+	"description": "",
+	"version": "0.1",
+	"minimum-stability": "dev",
+	"keywords": [],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sergey Ilin",
+			"homepage": "http://github.com/serebro"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Serebro\\": "src/"
+        }
+    }
+}
